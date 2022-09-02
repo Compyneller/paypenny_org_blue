@@ -45,18 +45,32 @@ const Footer = () => {
                 Click to download app
               </h1>
               <br />
-              <Button
-                variant="dark"
-                className="download__buttons footer__downloadButton"
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
+                className="footer__downloadButton"
+                target="_blank"
               >
-                Download PayPenny App
-              </Button>
-              <Button
-                variant="dark"
-                className=" download__buttons footer__downloadButton"
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  Android
+                </Button>
+              </a>
+              <a
+                href="https://apps.apple.com/in/app/paypenny/id1545140323"
+                target="_blank"
+                className="footer__downloadButton"
               >
-                Download PayPenny App
-              </Button>
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  iOS
+                </Button>
+              </a>
               <AllSocialLinks />
             </Col>
           </Row>
@@ -75,10 +89,18 @@ const Footer = () => {
           <br />
           <br />
           <div className="d-flex align-items-center justify-content-between footer__links">
-            <Link to="/tc">Terms & Conditions</Link>
-            <Link to="/tc">Privacy Policy</Link>
-            <Link to="/tc">Contact Us</Link>
-            <Link to="/tc">Blog</Link>
+            <Link to="/tc" onClick={() => window.scroll(0, 0)}>
+              Terms & Conditions
+            </Link>
+            <Link to="/pp" onClick={() => window.scroll(0, 0)}>
+              Privacy Policy
+            </Link>
+            <Link to="/contact-us" onClick={() => window.scroll(0, 0)}>
+              Contact Us
+            </Link>
+            <Link to="/blog" onClick={() => window.scroll(0, 0)}>
+              Blog
+            </Link>
           </div>
           <br />
           <br />

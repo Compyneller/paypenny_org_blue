@@ -21,22 +21,34 @@ const Section5 = () => {
           <br />
           <Row className="g-3 w-100">
             <Col sm={12} lg={6}>
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in-down"
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
+                className="w-100"
+                target="_blank"
               >
-                Download PayPenny App
-              </Button>
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  Android
+                </Button>
+              </a>
             </Col>
             <Col sm={12} lg={6}>
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in-down"
+              <a
+                href="https://apps.apple.com/in/app/paypenny/id1545140323"
+                target="_blank"
+                className="w-100"
               >
-                Download PayPenny App
-              </Button>
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  iOS
+                </Button>
+              </a>
             </Col>
           </Row>
         </Col>

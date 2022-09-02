@@ -2,7 +2,9 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import image from "../../assets/photo-1483389127117-b6a2102724ae.avif";
 import "./Blog.css";
+import { useNavigate } from "react-router-dom";
 const Blog = () => {
+  const navigate = useNavigate();
   return (
     <div className="blog__container">
       <div class="custom-shape-divider-top-1662109117">
@@ -52,6 +54,7 @@ const Blog = () => {
               variant="dark"
               className="w-100 download__buttons"
               data-aos="zoom-in-up"
+              onClick={() => navigate("/blog")}
             >
               Read More
             </Button>

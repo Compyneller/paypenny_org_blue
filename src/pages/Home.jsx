@@ -22,7 +22,7 @@ const Home = () => {
       <Section5 />
       <Blog />
       <Section6 />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
