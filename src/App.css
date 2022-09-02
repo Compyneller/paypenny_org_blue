@@ -10,7 +10,7 @@
 }
 body{
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .container{
   width: 65% !important;
@@ -20,6 +20,8 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  overflow-x: hidden !important;
+
 }
 .section__heading{
   font-size: 2vw;

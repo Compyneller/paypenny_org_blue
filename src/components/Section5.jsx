@@ -5,7 +5,7 @@ const Section5 = () => {
   return (
     <Container
       className="d-flex align-items-center justify-content-center"
-      style={{ minHeight: "100vh" }}
+      style={{ minHeight: "100vh", overflowX: "hidden" }}
     >
       <Row className="g-3">
         <Col

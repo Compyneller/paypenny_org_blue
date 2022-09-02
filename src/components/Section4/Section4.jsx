@@ -4,7 +4,7 @@ import "./Section4.css";
 import image from "../../assets/undraw_palette_-110-c.svg";
 const Section4 = () => {
   return (
-    <Row className="g-3">
+    <Row className="g-3" style={{ overflowX: "hidden" }}>
       <Col sm={12} lg={6}>
         <div
           className="w-100 section4__left__container px-3"

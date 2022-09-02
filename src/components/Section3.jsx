@@ -5,7 +5,7 @@ const Section3 = () => {
   return (
     <Container
       className="d-flex py-5 flex-column aling-items-center justify-content-center"
-      style={{ minHeight: "100vh" }}
+      style={{ minHeight: "100vh", overflowX: "hidden" }}
     >
       <h1 className="section__heading  text-center" data-aos="zoom-out">
         Benefits of Sending Money with Paypenny

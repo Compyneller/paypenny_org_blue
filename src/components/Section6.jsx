@@ -5,7 +5,7 @@ const Section6 = () => {
   return (
     <Row
       className="g-3 py-5 d-flex align-items-center justify-content-center"
-      style={{ minHeight: "100vh" }}
+      style={{ minHeight: "100vh", overflowX: "hidden" }}
     >
       <Col sm={12} lg={6} className="px-3">
         <img

@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
+    overflow-x: hidden !important;
 }
 .custom-shape-divider-bottom-1662033800 {
     position: absolute;

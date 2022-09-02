@@ -21,7 +21,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="footer__content">
+      <div className="footer__content pb-5">
         <Container>
           <Row className="g-3">
             <Col sm={12} lg={6} className="d-flex flex-column ">
@@ -74,42 +74,22 @@ const Footer = () => {
           </h1>
           <br />
           <br />
-          <Row className="g-3 footer__links">
-            <Col sm={6} lg={3}>
-              <Link to="/tc">Terms & Conditions</Link>
-            </Col>
-            <Col
-              sm={6}
-              lg={3}
-              className="d-flex justify-content-center align-items-center"
-            >
-              <Link to="/tc">Privacy Policy</Link>
-            </Col>
-            <Col
-              sm={6}
-              lg={3}
-              className="d-flex justify-content-center align-items-center"
-            >
-              <Link to="/tc">Contact Us</Link>
-            </Col>
-            <Col
-              sm={6}
-              lg={3}
-              className="d-flex justify-content-end align-items-center"
-            >
-              <Link to="/tc">Blog</Link>
-            </Col>
-          </Row>
+          <div className="d-flex align-items-center justify-content-between footer__links">
+            <Link to="/tc">Terms & Conditions</Link>
+            <Link to="/tc">Privacy Policy</Link>
+            <Link to="/tc">Contact Us</Link>
+            <Link to="/tc">Blog</Link>
+          </div>
           <br />
           <br />
           <Row className="g-3">
-            <Col sm={12} lg={8}>
+            <Col sm={12} lg={8} className="d-flex align-items-center">
               <p className="text-light ">
                 © paypenny all Rights Reserved. The Brand PayPenny belongs to
                 Trackon Canada Private Limited registered in Alberta,Canada.
               </p>
             </Col>
-            <Col sm={12} lg={4}>
+            <Col sm={12} lg={4} className="d-flex align-items-center">
               <AllSocialLinks />
             </Col>
           </Row>

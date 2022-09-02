@@ -6,6 +6,8 @@
     justify-content: center;
     min-height: 100vh;
     background-color: var(--primary-color);
+    overflow-x: hidden !important;
+
 
 }
 .custom-shape-divider-top-1662109117 {
@@ -38,4 +40,10 @@
     overflow: hidden;
     line-height: 0;
 }
+.blog__container{
+    padding: 3rem 0;
+
+
+}
+
 }

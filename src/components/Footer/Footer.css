@@ -6,6 +6,8 @@
     width: 100%;
     position: relative;
     background-color: var(--primary-color);
+    /* overflow-x: hidden !important; */
+
 }
 .custom-shape-divider-top-1662111856 {
     position: absolute;
@@ -61,6 +63,7 @@
 .footer__links a{
     color: #FFFFFF;
     text-decoration: none;
+    width: 100%;
 
 }
 
@@ -86,5 +89,8 @@
     width: 100%;
     margin: 1rem auto;
     z-index: 1000;
+}
+.footer__content{
+    top: 300px;
 }
 }

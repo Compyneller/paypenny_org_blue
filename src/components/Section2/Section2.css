@@ -5,6 +5,8 @@
     justify-content: center;
     min-height: 50vh;
     background-color: var(--primary-color);
+    overflow-x: hidden !important;
+
 }
 .section2__card{
     border: none !important;
