@@ -7,7 +7,7 @@ const Section2 = () => {
       <Container>
         <Row className="g-3">
           <Col sm={12} md={6} lg={3}>
-            <Card className="shadow section2__card">
+            <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body>
                 <img
                   src="https://img.icons8.com/fluency/344/create.png"
@@ -26,7 +26,11 @@ const Section2 = () => {
             </Card>
           </Col>
           <Col sm={12} md={6} lg={3}>
-            <Card className="shadow section2__card">
+            <Card
+              className="shadow section2__card"
+              data-aos="zoom-out"
+              data-aos-delay="300"
+            >
               <Card.Body>
                 <img
                   src="https://img.icons8.com/fluency/344/select-all-files.png"
@@ -42,7 +46,11 @@ const Section2 = () => {
             </Card>
           </Col>
           <Col sm={12} md={6} lg={3}>
-            <Card className="shadow section2__card">
+            <Card
+              className="shadow section2__card"
+              data-aos="zoom-out"
+              data-aos-delay="500"
+            >
               <Card.Body>
                 <img
                   src="https://img.icons8.com/fluency/344/document.png"
@@ -57,7 +65,11 @@ const Section2 = () => {
             </Card>
           </Col>
           <Col sm={12} md={6} lg={3}>
-            <Card className="shadow section2__card">
+            <Card
+              className="shadow section2__card"
+              data-aos="zoom-out"
+              data-aos-delay="700"
+            >
               <Card.Body>
                 <img
                   src="https://img.icons8.com/fluency/344/mail.png"

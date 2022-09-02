@@ -33,13 +33,19 @@ const Hero = () => {
         <Row className="g-3">
           <Col sm={12} lg={6} className="d-flex align-items-center">
             <div className="hero__text__container">
-              <span className="hero__send">Send</span>
-              <span className="hero__money">Money to</span>
-              <span className="hero__india">India</span>
+              <span className="hero__send" data-aos="fade-right">
+                Send
+              </span>
+              <span className="hero__money" data-aos="zoom-in">
+                Money to
+              </span>
+              <span className="hero__india" data-aos="fade-left">
+                India
+              </span>
             </div>
           </Col>
           <Col sm={12} lg={6}>
-            <img src={image} className="w-100" alt="" />
+            <img src={image} className="w-100" alt="" data-aos="zoom-in-up" />
           </Col>
         </Row>
       </Container>

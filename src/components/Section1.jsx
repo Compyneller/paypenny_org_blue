@@ -10,7 +10,7 @@ const Section1 = () => {
           lg={6}
           className="d-flex flex-column justify-content-center "
         >
-          <h1 className="section__heading">
+          <h1 className="section__heading" data-aos="fade-right">
             Hundreds of thousands of NRIs trust Paypenny
           </h1>
           <h5 className="section__sub__heading text-secondary">
@@ -19,19 +19,27 @@ const Section1 = () => {
           </h5>
           <Row className="g-3">
             <Col sm={12} lg={6}>
-              <Button variant="dark" className="w-100 download__buttons">
+              <Button
+                variant="dark"
+                className="w-100 download__buttons"
+                data-aos="zoom-in"
+              >
                 Download PayPenny App
               </Button>
             </Col>
             <Col sm={12} lg={6}>
-              <Button variant="dark" className="w-100 download__buttons">
+              <Button
+                variant="dark"
+                className="w-100 download__buttons"
+                data-aos="zoom-in"
+              >
                 Download PayPenny App
               </Button>
             </Col>
           </Row>
         </Col>
         <Col sm={12} lg={6}>
-          <img src={image} alt="" className="w-100" />
+          <img src={image} alt="" className="w-100" data-aos="fade-left" />
         </Col>
       </Row>
     </Container>

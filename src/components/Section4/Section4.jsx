@@ -6,8 +6,11 @@ const Section4 = () => {
   return (
     <Row className="g-3">
       <Col sm={12} lg={6}>
-        <div className="w-100 section4__left__container px-3">
-          <img src={image} alt="" className="w-100" />
+        <div
+          className="w-100 section4__left__container px-3"
+          data-aos="zoom-in"
+        >
+          <img src={image} alt="" className="w-100" data-aos="fade-right" />
         </div>
       </Col>
       <Col sm={12} lg={6}>
@@ -21,7 +24,7 @@ const Section4 = () => {
           <Container className="ms-0 p-2">
             <Row className="g-3">
               <Col sm={12} lg={12}>
-                <Card className=" shadow section2__card">
+                <Card className=" shadow section2__card" data-aos="fade-left">
                   <Card.Body>
                     <img
                       src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/344/external-fast-distribution-xnimrodx-blue-xnimrodx.png"
@@ -34,7 +37,11 @@ const Section4 = () => {
                 </Card>
               </Col>
               <Col sm={12} lg={12}>
-                <Card className=" shadow section2__card">
+                <Card
+                  className=" shadow section2__card"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                >
                   <Card.Body>
                     <img
                       src="https://img.icons8.com/color/344/application-shield.png"

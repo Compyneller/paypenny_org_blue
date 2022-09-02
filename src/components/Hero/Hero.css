@@ -42,7 +42,7 @@
     font-size: 8vw;
     position: absolute;
     font-weight: 900;
-    opacity: .4;
+    opacity: .4 !important;
     bottom: 0;
     left: 0;
 
@@ -63,7 +63,7 @@
     top: 0;
     font-size: 8vw;
     font-weight: 900;
-    opacity: .5;
+    opacity: .5 !important;
     
 }
 

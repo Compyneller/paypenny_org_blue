@@ -8,7 +8,12 @@ const Section6 = () => {
       style={{ minHeight: "100vh" }}
     >
       <Col sm={12} lg={6} className="px-3">
-        <img src={image} alt="Paypenny Ambassador" className="w-100" />
+        <img
+          src={image}
+          alt="Paypenny Ambassador"
+          className="w-100"
+          data-aos="fade-right"
+        />
       </Col>
 
       <Col
@@ -17,23 +22,36 @@ const Section6 = () => {
         className="d-flex align-items-center justify-content-start"
       >
         <Container className="ms-0">
-          <h1 className="section__heading">Become Our Brand Ambassador</h1>
+          <h1 className="section__heading" data-aos="fade-left">
+            Become Our Brand Ambassador
+          </h1>
 
-          <h5 className="section__sub__heading text-secondary">
+          <h5
+            className="section__sub__heading text-secondary"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
             Are you a social media buzz? Become our ambassador and if you are
             lucky, you might be chosen for our campaigns soon and will get
             exclusive rewards!
           </h5>
 
-          <Button variant="dark" className="w-100 mb-5 download__buttons">
+          <Button
+            variant="dark"
+            className="w-100 mb-5 download__buttons"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
             Join the Program
           </Button>
 
-          <h1 className="section__heading">Frequently Ask Question</h1>
+          <h1 className="section__heading" data-aos="zoom-in-down">
+            Frequently Ask Question
+          </h1>
           <br />
           <Row className="g-3">
             <Col sm={12} lg={6}>
-              <Card className="shadow section2__card">
+              <Card className="shadow section2__card" data-aos="zoom-out-down">
                 <Card.Body>
                   <h5 className="section__sub__heading">
                     How can I top up my Paypenny account?
@@ -47,7 +65,11 @@ const Section6 = () => {
               </Card>
             </Col>
             <Col sm={12} lg={6}>
-              <Card className="shadow section2__card">
+              <Card
+                className="shadow section2__card"
+                data-aos="zoom-out-down"
+                data-aos-delay="500"
+              >
                 <Card.Body>
                   <h5 className="section__sub__heading">
                     Do I need to verify my account?

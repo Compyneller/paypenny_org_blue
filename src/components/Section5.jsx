@@ -13,7 +13,7 @@ const Section5 = () => {
           lg={6}
           className="d-flex align-items-center justify-content-center flex-column"
         >
-          <h1 className="section__heading">
+          <h1 className="section__heading" data-aos="fade-right">
             Transfer Money to India with Paypenny. Install the app, signup, and
             send Money to your loved ones.
           </h1>
@@ -21,12 +21,20 @@ const Section5 = () => {
           <br />
           <Row className="g-3 w-100">
             <Col sm={12} lg={6}>
-              <Button variant="dark" className="w-100 download__buttons">
+              <Button
+                variant="dark"
+                className="w-100 download__buttons"
+                data-aos="zoom-in-down"
+              >
                 Download PayPenny App
               </Button>
             </Col>
             <Col sm={12} lg={6}>
-              <Button variant="dark" className="w-100 download__buttons">
+              <Button
+                variant="dark"
+                className="w-100 download__buttons"
+                data-aos="zoom-in-down"
+              >
                 Download PayPenny App
               </Button>
             </Col>
@@ -37,7 +45,7 @@ const Section5 = () => {
           lg={6}
           className="d-flex align-items-center justify-content-center"
         >
-          <img src={image} alt="" />
+          <img src={image} alt="" data-aos="fade-left" data-aos-delay="300" />
         </Col>
       </Row>
     </Container>

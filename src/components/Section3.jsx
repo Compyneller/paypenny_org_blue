@@ -7,14 +7,14 @@ const Section3 = () => {
       className="d-flex py-5 flex-column aling-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
-      <h1 className="section__heading  text-center">
+      <h1 className="section__heading  text-center" data-aos="zoom-out">
         Benefits of Sending Money with Paypenny
       </h1>
       <br />
       <br />
       <Row className="g-3">
         <Col sm={12} md={6} lg={4}>
-          <Card className="shadow section2__card">
+          <Card className="shadow section2__card" data-aos="fade-right">
             <Card.Body>
               <img
                 src="https://img.icons8.com/color/344/embassy.png"
@@ -32,7 +32,7 @@ const Section3 = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={4}>
-          <Card className="shadow section2__card">
+          <Card className="shadow section2__card" data-aos="zoom-out">
             <Card.Body>
               <img
                 src="https://img.icons8.com/fluency/344/location-off.png"
@@ -49,7 +49,7 @@ const Section3 = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={4}>
-          <Card className="shadow section2__card">
+          <Card className="shadow section2__card" data-aos="fade-left">
             <Card.Body>
               <img
                 src="https://img.icons8.com/fluency/344/tags.png"
@@ -65,7 +65,7 @@ const Section3 = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={4}>
-          <Card className="shadow section2__card">
+          <Card className="shadow section2__card" data-aos="fade-right">
             <Card.Body>
               <img
                 src="https://img.icons8.com/fluency/344/paid-bill.png"
@@ -81,7 +81,7 @@ const Section3 = () => {
           </Card>
         </Col>
         <Col sm={12} md={6} lg={4}>
-          <Card className="shadow section2__card">
+          <Card className="shadow section2__card" data-aos="zoom-out">
             <Card.Body>
               <img
                 src="https://img.icons8.com/external-flat-berkahicon/344/external-Track-location-flat-berkahicon.png"
@@ -98,7 +98,7 @@ const Section3 = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={6} lg={4}>
+        <Col sm={12} md={6} lg={4} data-aos="fade-left">
           <Card className="shadow section2__card">
             <Card.Body>
               <img

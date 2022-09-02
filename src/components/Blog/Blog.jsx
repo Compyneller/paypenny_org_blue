@@ -22,24 +22,37 @@ const Blog = () => {
             lg={6}
             className="d-flex flex-column justify-content-center "
           >
-            <h5 className="text-light" style={{ opacity: ".7" }}>
+            <h5
+              className="text-light"
+              style={{ opacity: ".7" }}
+              data-aos="fade-right"
+            >
               BLOGS
             </h5>
             <br />
-            <h1 className="section__heading text-light">
+            <h1
+              className="section__heading text-light"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               How to transfer money from Canada to India without any charges? -
               Paypenny
             </h1>
             <br />
             <h5
               className="section__sub__heading text-light"
+              data-aos="fade-right"
               style={{ opacity: ".7" }}
             >
               Money transfer from Canada to India | zero charges for money
               transfer to India
             </h5>
             <br />
-            <Button variant="dark" className="w-100 download__buttons">
+            <Button
+              variant="dark"
+              className="w-100 download__buttons"
+              data-aos="zoom-in-up"
+            >
               Read More
             </Button>
           </Col>
@@ -53,6 +66,7 @@ const Blog = () => {
               alt="PayPenny Blog"
               className="w-100 shadow rounded"
               style={{ zIndex: "1000" }}
+              data-aos="fade-left"
             />
           </Col>
         </Row>
