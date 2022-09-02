@@ -4,7 +4,7 @@ import image from "../assets/undraw_fashion_photoshoot_mtq8.svg";
 const Section6 = () => {
   return (
     <Row
-      className="g-3 d-flex align-items-center justify-content-center"
+      className="g-3 py-5 d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
       <Col sm={12} lg={6} className="px-3">
@@ -53,7 +53,7 @@ const Section6 = () => {
             <Col sm={12} lg={6}>
               <Card className="shadow section2__card" data-aos="zoom-out-down">
                 <Card.Body>
-                  <h5 className="section__sub__heading">
+                  <h5 className="section__sub__heading my-4">
                     How can I top up my Paypenny account?
                   </h5>
 
@@ -71,7 +71,7 @@ const Section6 = () => {
                 data-aos-delay="500"
               >
                 <Card.Body>
-                  <h5 className="section__sub__heading">
+                  <h5 className="section__sub__heading my-4">
                     Do I need to verify my account?
                   </h5>
 

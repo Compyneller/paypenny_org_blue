@@ -3,7 +3,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import "./Section2.css";
 const Section2 = () => {
   return (
-    <div className="section2__container">
+    <div className="section2__container py-5">
       <Container>
         <Row className="g-3">
           <Col sm={12} md={6} lg={3}>
