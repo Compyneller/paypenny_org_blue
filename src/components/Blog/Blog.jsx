@@ -54,7 +54,10 @@ const Blog = () => {
               variant="dark"
               className="w-100 download__buttons"
               data-aos="zoom-in-up"
-              onClick={() => navigate("/blog")}
+              onClick={() => {
+                navigate("/blog");
+                window.scroll(0, 0);
+              }}
             >
               Read More
             </Button>
