@@ -79,10 +79,10 @@ const FooterCard = () => {
               alt=""
             />
             <h5 className="section__sub__heading my-3">
-              1,25,000+ happy customers & counting
+              10,000+ happy customers & counting
             </h5>
             <p>
-              We have gained the trust of 1,25,000+ people to manage their
+              We have gained the trust of 10,000+ people to manage their
               currency and the numbers are increasing day by day.
             </p>
           </Card.Body>

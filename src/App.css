@@ -20,7 +20,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 
 }
 .section__heading{
@@ -89,6 +89,9 @@ body{
   }
   .section__sub__heading{
     font-size: 6vw ;
+  }
+  .section__container{
+    padding: 3rem 0;
   }
   
   

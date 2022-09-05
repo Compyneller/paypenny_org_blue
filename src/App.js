@@ -7,10 +7,11 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import Blogs from "./pages/Blog/Blogs";
 import TC from "./pages/TC";
-import NavBarComp from "./components/NavBarComp/NavBarComp";
 import Footer from "./components/Footer/Footer";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/CotactUs";
+import Earn from "./pages/Earn";
+import CustomerJourney from "./pages/CustomerJourney";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,8 @@ function App() {
           <Route path="/tc" element={<TC />} />
           <Route path="/pp" element={<PrivacyPolicy />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/earn" element={<Earn />} />
+          <Route path="/processflow" element={<CustomerJourney />} />
         </Routes>
         <Footer />
       </BrowserRouter>

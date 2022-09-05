@@ -49,6 +49,7 @@ const Footer = () => {
                 href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
                 className="footer__downloadButton"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Button
                   variant="dark"
@@ -61,6 +62,7 @@ const Footer = () => {
               <a
                 href="https://apps.apple.com/in/app/paypenny/id1545140323"
                 target="_blank"
+                rel="noreferrer"
                 className="footer__downloadButton"
               >
                 <Button
@@ -84,11 +86,11 @@ const Footer = () => {
           </h5>
 
           <h1 className="section__heading text-center text-light">
-            Trusted by over 1,25,000+ users
+            Trusted by over 10,000+ users
           </h1>
           <br />
           <br />
-          <div className="d-flex align-items-center justify-content-between footer__links">
+          <div className="d-flex  justify-content-between w-100 footer__links">
             <Link to="/tc" onClick={() => window.scroll(0, 0)}>
               Terms & Conditions
             </Link>

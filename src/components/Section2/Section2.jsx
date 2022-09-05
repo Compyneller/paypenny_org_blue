@@ -5,6 +5,9 @@ const Section2 = () => {
   return (
     <div className="section2__container py-5">
       <Container>
+        <h1 className="section__heading text-center text-light mb-3">
+          Send Money in 4 easy steps
+        </h1>
         <Row className="g-3">
           <Col sm={12} md={6} lg={3}>
             <Card className="shadow section2__card" data-aos="zoom-out">

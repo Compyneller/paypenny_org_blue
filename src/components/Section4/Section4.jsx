@@ -31,7 +31,7 @@ const Section4 = () => {
                       height={100}
                       alt=""
                     />
-                    <h5 className=" my-3 section__sub__heading">We're Fast</h5>
+                    <h3 className=" my-3">We're Fast</h3>
                     <p>90% of our transactions are authorized in minutes.</p>
                   </Card.Body>
                 </Card>
@@ -48,7 +48,7 @@ const Section4 = () => {
                       height={100}
                       alt=""
                     />
-                    <h5 className=" my-3 section__sub__heading">We’re Safe</h5>
+                    <h3 className=" my-3">We’re Safe</h3>
                     <p>
                       Our industry-leading technology protects your Money and
                       guarantees it arrives safely every time.
