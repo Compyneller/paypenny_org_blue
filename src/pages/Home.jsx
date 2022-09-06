@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Blog from "../components/Blog/Blog";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
@@ -13,6 +14,14 @@ import Section6 from "../components/Section6";
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>PayPenny Home</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="description"
+          value="Hundreds of thousands of NRIs trust Paypenny"
+        />
+      </Helmet>
       <NavBarComp />
       <Hero />
       <Section1 />

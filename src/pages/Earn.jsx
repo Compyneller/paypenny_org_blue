@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import EarnSec1 from "../components/EarnComponents/EarnSec1";
 import EarnSec2 from "../components/EarnComponents/EarnSec2";
 import EarnSec3 from "../components/EarnComponents/EarnSec3";
@@ -11,6 +12,14 @@ import NavBarComp from "../components/NavBarComp/NavBarComp";
 const Earn = () => {
   return (
     <>
+      <Helmet>
+        <title>PayPenny Earn</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="description"
+          value="Hundreds of thousands of NRIs trust Paypenny"
+        />
+      </Helmet>
       <NavBarComp />
       <EarnHero />
       <EarnSec1 />

@@ -57,7 +57,12 @@ const Section5 = () => {
           lg={6}
           className="d-flex align-items-center justify-content-center"
         >
-          <img src={image} alt="" data-aos="fade-left" data-aos-delay="300" />
+          <img
+            src={image}
+            alt="PayPenny Download"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          />
         </Col>
       </Row>
     </Container>

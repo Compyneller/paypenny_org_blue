@@ -1,10 +1,19 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
     <Container className="mt-5">
+      <Helmet>
+        <title>PayPenny Privacy Policy</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="description"
+          value="Hundreds of thousands of NRIs trust Paypenny"
+        />
+      </Helmet>
       <div className=" d-flex">
         <Link to="/">
           <img

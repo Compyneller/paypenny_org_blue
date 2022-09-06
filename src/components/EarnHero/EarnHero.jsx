@@ -52,7 +52,12 @@ const EarnHero = () => {
             {/* </div> */}
           </Col>
           <Col sm={12} lg={6}>
-            <img src={image} className="w-100" alt="" data-aos="fade-left" />
+            <img
+              src={image}
+              className="w-100"
+              alt="paypenny.org Earn image"
+              data-aos="fade-left"
+            />
           </Col>
         </Row>
       </Container>

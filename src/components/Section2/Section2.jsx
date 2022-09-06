@@ -15,7 +15,7 @@ const Section2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/create.png"
                   height={80}
-                  alt=""
+                  alt="PayPenny Send Money in 4 easy steps"
                 />
                 <h5 className="section__sub__heading my-3">
                   Create your account
@@ -38,7 +38,7 @@ const Section2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/select-all-files.png"
                   height={80}
-                  alt=""
+                  alt="PayPenny Create your account"
                 />
                 <h5 className="section__sub__heading my-3">Choose method</h5>
                 <p>
@@ -58,7 +58,7 @@ const Section2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/document.png"
                   height={80}
-                  alt=""
+                  alt="PayPenny Choose method"
                 />
                 <h5 className="section__sub__heading my-3">
                   Input receiver details
@@ -77,7 +77,7 @@ const Section2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/mail.png"
                   height={80}
-                  alt=""
+                  alt="PayPenny Input receiver details"
                 />
                 <h5 className="section__sub__heading my-3">Confirm and send</h5>
                 <p>

@@ -10,7 +10,12 @@ const Section4 = () => {
           className="w-100 section4__left__container px-3"
           data-aos="zoom-in"
         >
-          <img src={image} alt="" className="w-100" data-aos="fade-right" />
+          <img
+            src={image}
+            alt="PayPenny Why Choose Us"
+            className="w-100"
+            data-aos="fade-right"
+          />
         </div>
       </Col>
       <Col sm={12} lg={6}>
@@ -29,7 +34,7 @@ const Section4 = () => {
                     <img
                       src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/344/external-fast-distribution-xnimrodx-blue-xnimrodx.png"
                       height={100}
-                      alt=""
+                      alt="PayPenny Card Icons"
                     />
                     <h3 className=" my-3">We're Fast</h3>
                     <p>90% of our transactions are authorized in minutes.</p>
@@ -46,7 +51,7 @@ const Section4 = () => {
                     <img
                       src="https://img.icons8.com/color/344/application-shield.png"
                       height={100}
-                      alt=""
+                      alt="PayPenny Card Icons"
                     />
                     <h3 className=" my-3">We’re Safe</h3>
                     <p>

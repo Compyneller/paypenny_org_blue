@@ -19,7 +19,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/color/344/embassy.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">
                 Govt Reg & Regulated
@@ -37,7 +37,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/fluency/344/location-off.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">Anytime Anywhere</h5>
               <p>
@@ -54,7 +54,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/fluency/344/tags.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">Better Rates</h5>
               <p>
@@ -70,7 +70,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/fluency/344/paid-bill.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">Easy & Convenient</h5>
               <p>
@@ -86,7 +86,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/external-flat-berkahicon/344/external-Track-location-flat-berkahicon.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">
                 Track your transfer online
@@ -104,7 +104,7 @@ const Section3 = () => {
               <img
                 src="https://img.icons8.com/external-itim2101-flat-itim2101/344/external-support-contact-and-message-itim2101-flat-itim2101.png"
                 height={80}
-                alt=""
+                alt="PayPenny Card Icons"
               />
               <h5 className="section__sub__heading my-3">
                 Round The Clock Support

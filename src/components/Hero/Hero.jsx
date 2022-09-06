@@ -45,7 +45,12 @@ const Hero = () => {
             </div>
           </Col>
           <Col sm={12} lg={6}>
-            <img src={image} className="w-100" alt="" data-aos="zoom-in-up" />
+            <img
+              src={image}
+              className="w-100"
+              alt="PayPenny Hero Image"
+              data-aos="zoom-in-up"
+            />
           </Col>
         </Row>
       </Container>

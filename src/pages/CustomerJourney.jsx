@@ -1,9 +1,18 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const CustomerJourney = () => {
   return (
     <div className="bg-light">
+      <Helmet>
+        <title>PayPenny Customer Journey</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="description"
+          value="Hundreds of thousands of NRIs trust Paypenny"
+        />
+      </Helmet>
       <div className="container py-5 d-flex">
         <Link to="/">
           <img

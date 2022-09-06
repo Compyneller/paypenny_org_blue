@@ -22,7 +22,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/return.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">Highest Returns</h5>
                 <p>
@@ -41,7 +41,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/multicast.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">Multi-Holdings</h5>
                 <p>
@@ -61,7 +61,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/split.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">
                   Split large amount
@@ -83,7 +83,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/fluency/344/percentage.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">
                   Best Interest Rates
@@ -105,7 +105,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/external-sbts2018-outline-color-sbts2018/344/external-easy-basic-ui-elements-2.2-sbts2018-outline-color-sbts2018.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">
                   Simple & Convenient
@@ -127,7 +127,7 @@ const EarnSec2 = () => {
                 <img
                   src="https://img.icons8.com/external-wanicon-flat-wanicon/344/external-success-training-and-coaching-wanicon-flat-wanicon.png"
                   height={80}
-                  alt=""
+                  alt="paypenny.org card logo"
                 />
                 <h5 className="section__sub__heading my-3">
                   100% Satisfaction

@@ -28,7 +28,7 @@ const EarnSec5 = () => {
           <Col sm={12} lg={4}>
             <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-                <img src={image} className="w-75 " alt="" />
+                <img src={image} className="w-75 " alt="paypenny.org Icons" />
                 <p className="mt-3">
                   I save money every week from my expenses and invest it into
                   the Earn Wallet by Paypenny app. I get amazing returns on my
@@ -44,7 +44,7 @@ const EarnSec5 = () => {
           <Col sm={12} lg={4}>
             <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-                <img src={image} className="w-75 " alt="" />
+                <img src={image} className="w-75 " alt="paypenny.org Icons" />
                 <p className="mt-3">
                   I am very happy with the interest rate provided on an
                   investment. I deposited my 2000 CAD for 60 days and got
@@ -58,7 +58,7 @@ const EarnSec5 = () => {
           <Col sm={12} lg={4}>
             <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-                <img src={image} className="w-75 " alt="" />
+                <img src={image} className="w-75 " alt="paypenny.org Icons" />
                 <p className="mt-3">
                   Most trustable and easy feature to grow your money. I have
                   been using Paypenny for over a year and the Earn Wallet
@@ -73,7 +73,7 @@ const EarnSec5 = () => {
           <Col sm={12} lg={4}>
             <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-                <img src={image} className="w-75 " alt="" />
+                <img src={image} className="w-75 " alt="paypenny.org Icons" />
                 <p className="mt-3">
                   I have been using Earn Wallet regularly. In the beginning, it
                   didn't give me a vibe check so I invested a small amount just
@@ -87,7 +87,7 @@ const EarnSec5 = () => {
           <Col sm={12} lg={4}>
             <Card className="shadow section2__card" data-aos="zoom-out">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-                <img src={image} className="w-75 " alt="" />
+                <img src={image} className="w-75 " alt="paypenny.org Icons" />
                 <p className="mt-3">
                   My friends recommended Earn Wallet. A simply great feature to
                   grow your CAD. I like customer support the most. They easily

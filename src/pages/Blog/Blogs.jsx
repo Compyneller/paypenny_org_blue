@@ -1,10 +1,19 @@
 import React from "react";
 import { Button, Card, Carousel, Col, Container, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet-async";
 import "./Blog.scss";
 
 const Blogs = () => {
   return (
     <div className="mainBlogContainer bg-light">
+      <Helmet>
+        <title>PayPenny Blog</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="description"
+          value="Hundreds of thousands of NRIs trust Paypenny"
+        />
+      </Helmet>
       <div className="blogContainer">
         <div className="blogBg"></div>
         <div className="BlogCarousel">

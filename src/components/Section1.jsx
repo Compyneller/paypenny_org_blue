@@ -51,7 +51,12 @@ const Section1 = () => {
           </Row>
         </Col>
         <Col sm={12} lg={6}>
-          <img src={image} alt="" className="w-100" data-aos="fade-left" />
+          <img
+            src={image}
+            alt="PayPenny image"
+            className="w-100"
+            data-aos="fade-left"
+          />
         </Col>
       </Row>
     </Container>

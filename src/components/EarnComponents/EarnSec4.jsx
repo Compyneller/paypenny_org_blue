@@ -39,7 +39,7 @@ const EarnSec4 = () => {
         >
           <img
             src={image}
-            alt="PayPenny Blog"
+            alt="paypenny.org Blog"
             className="w-100 shadow rounded"
             style={{ zIndex: "1000" }}
             data-aos="fade-left"

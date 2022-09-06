@@ -35,7 +35,7 @@ const EarnSec1 = () => {
         <Col sm={12} lg={6}>
           <img
             src={image}
-            alt="paypenny invest"
+            alt="paypenny.org invest"
             className="w-100"
             data-aos="fade-left"
           />

@@ -12,6 +12,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/CotactUs";
 import Earn from "./pages/Earn";
 import CustomerJourney from "./pages/CustomerJourney";
+import NotFound from "./pages/NotFound";
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/earn" element={<Earn />} />
           <Route path="/processflow" element={<CustomerJourney />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
