@@ -13,6 +13,9 @@ import ContactUs from "./pages/CotactUs";
 import Earn from "./pages/Earn";
 import CustomerJourney from "./pages/CustomerJourney";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About/About";
+import Career from "./pages/Career/Career";
+import HTU from "./pages/HowToUse/HTU";
 
 function App() {
   useEffect(() => {
@@ -32,6 +35,14 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/earn" element={<Earn />} />
           <Route path="/processflow" element={<CustomerJourney />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/how-to-use" element={<HTU />} />
+          {/* <Route path="/rate-fees" element={<RateFees />} />
+          <Route path="/security" element={<Security />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/refer" element={<Refer />} />
+          <Route path="/help" element={<Help />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

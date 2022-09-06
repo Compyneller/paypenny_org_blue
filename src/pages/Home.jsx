@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import Blog from "../components/Blog/Blog";
-import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import NavBarComp from "../components/NavBarComp/NavBarComp";
 import Section1 from "../components/Section1";
@@ -22,7 +21,7 @@ const Home = () => {
           value="Hundreds of thousands of NRIs trust Paypenny"
         />
       </Helmet>
-      <NavBarComp />
+      <NavBarComp position="absolute" />
       <Hero />
       <Section1 />
       <Section2 />

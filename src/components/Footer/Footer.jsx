@@ -5,6 +5,7 @@ import image from "../../assets/onlink_to_wjt5cq.svg";
 import AllSocialLinks from "./AllSocialLinks";
 import FooterCard from "./FooterCard";
 import { Link } from "react-router-dom";
+import FooterBottom from "./FooterBottom";
 const Footer = () => {
   return (
     <div className="footer__container">
@@ -90,33 +91,8 @@ const Footer = () => {
           </h1>
           <br />
           <br />
-          <div className="d-flex  justify-content-between w-100 footer__links">
-            <Link to="/tc" onClick={() => window.scroll(0, 0)}>
-              Terms & Conditions
-            </Link>
-            <Link to="/pp" onClick={() => window.scroll(0, 0)}>
-              Privacy Policy
-            </Link>
-            <Link to="/contact-us" onClick={() => window.scroll(0, 0)}>
-              Contact Us
-            </Link>
-            <Link to="/blog" onClick={() => window.scroll(0, 0)}>
-              Blog
-            </Link>
-          </div>
-          <br />
-          <br />
-          <Row className="g-3">
-            <Col sm={12} lg={8} className="d-flex align-items-center">
-              <p className="text-light ">
-                © paypenny all Rights Reserved. The Brand PayPenny belongs to
-                Trackon Canada Private Limited registered in Alberta,Canada.
-              </p>
-            </Col>
-            <Col sm={12} lg={4} className="d-flex align-items-center">
-              <AllSocialLinks />
-            </Col>
-          </Row>
+
+          <FooterBottom />
         </Container>
       </div>
     </div>

@@ -1,0 +1,18 @@
+.career__container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.career__text{
+    background-color: var(--primary-color);
+    width: 100% !important;
+    padding: 3rem 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

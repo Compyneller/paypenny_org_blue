@@ -20,7 +20,7 @@ const Earn = () => {
           value="Hundreds of thousands of NRIs trust Paypenny"
         />
       </Helmet>
-      <NavBarComp />
+      <NavBarComp position="absolute" />
       <EarnHero />
       <EarnSec1 />
       <EarnSec2 />

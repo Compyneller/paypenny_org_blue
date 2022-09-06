@@ -7,7 +7,7 @@ import interact from "../../assets/Interac_Brand.png";
 import earn from "../../assets/Earn-logo.gif";
 import { Link } from "react-router-dom";
 
-const NavBarComp = () => {
+const NavBarComp = ({ position }) => {
   return (
     <>
       {["md"].map((expand) => (
@@ -15,8 +15,8 @@ const NavBarComp = () => {
           key={expand}
           expand={expand}
           style={{
-            background: "transparent",
-            position: "absolute",
+            background: "#0054FF",
+            position: `${position}`,
             zIndex: "100",
             width: "100%",
           }}
@@ -33,7 +33,7 @@ const NavBarComp = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  <img src={logo} alt="" style={{ height: "10vh" }} />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
