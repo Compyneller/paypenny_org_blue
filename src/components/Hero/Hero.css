@@ -28,45 +28,49 @@
     fill: #FFFFFF;
 }
 
-.hero__text__container{
+
+.first-text-container{
     width: 100%;
     display: flex;
-    position: relative;
-    color: #ffff;
-    /* min-height: 70vh; */
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: start;
     
 }
-.hero__send{
+.first-text-container h1{
     font-size: 8vw;
-    position: absolute;
-    font-weight: 900;
-    opacity: .4 !important;
-    bottom: 0;
-    left: 0;
-
-    
-}
-.hero__money{
-    position: absolute;
-  
-    margin:  auto;
-    text-align: center;
-    font-size: 3.5vw;
-    font-weight: 600;
-
-}
-.hero__india{
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 8vw;
-    font-weight: 900;
+    color: #ffff;
     opacity: .5 !important;
+    font-weight: bold;
+}
+.second-text-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+.second-text-container h5{
+    font-size: 3.5vw;
+    color: #ffff;
+}
+.third-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.third-text-container h1{
+   font-size: 8vw;
+   opacity: .5  !important;
+   font-weight: bold;
+   color: #FFFFFF;
+}
+.fourth-text-container {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   color: #ffff;
+}
+
 
 @media screen and (max-width : 950px) {
     .hero__text__container{
@@ -99,6 +103,47 @@
         font-weight: 900;
         opacity: .5;
         
+    }
+    .first-text-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        
+    }
+    .first-text-container h1{
+        font-size: 18vw;
+        color: #ffff;
+        opacity: .5 !important;
+        font-weight: bold;
+    }
+    .second-text-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .second-text-container h5{
+        font-size: 8vw;
+        color: #ffff;
+    }
+    .third-text-container {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .third-text-container h1{
+       font-size: 18vw;
+       opacity: .5  !important;
+       font-weight: bold;
+       color: #FFFFFF;
+    }
+    .fourth-text-container {
+       display: flex;
+       align-items: center;
+       justify-content: end;
+       color: #ffff;
     }
     
 }

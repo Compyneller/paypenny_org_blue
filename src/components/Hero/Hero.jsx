@@ -31,17 +31,22 @@ const Hero = () => {
 
       <Container>
         <Row className="g-3">
-          <Col sm={12} lg={6} className="d-flex align-items-center">
-            <div className="hero__text__container">
-              <span className="hero__send" data-aos="fade-right">
-                Send
-              </span>
-              <span className="hero__money" data-aos="zoom-in">
-                Money to
-              </span>
-              <span className="hero__india" data-aos="fade-left">
-                India
-              </span>
+          <Col
+            sm={12}
+            lg={6}
+            className="d-flex flex-column justify-content-center"
+          >
+            <div className="first-text-container">
+              <h1 data-aos="fade-right">Send</h1>
+            </div>
+            <div className="second-text-container">
+              <h5 data-aos="zoom-out">Money to</h5>
+            </div>
+            <div className="third-text-container">
+              <h1 data-aos="fade-left">India</h1>
+            </div>
+            <div className="fourth-text-container">
+              <h5 data-aos="fade-left">at Zero Charges</h5>
             </div>
           </Col>
           <Col sm={12} lg={6}>
