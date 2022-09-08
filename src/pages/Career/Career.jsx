@@ -32,7 +32,7 @@ const Career = () => {
                   Find Your Dream Job With Us
                 </h1>
                 <div className="d-flex w-100 justify-content-end">
-                  <Row className="w-75 mt-3">
+                  <Row className="w-75 mt-3 d-flex align-items-center">
                     <div className="col-2">
                       <h5
                         className="section__sub__heading my-2 "
@@ -44,16 +44,16 @@ const Career = () => {
                     <div className="col-10">
                       <a
                         href="mailto:hello@paypenny.io"
-                        className="footer__downloadButton"
+                        className="section__sub__heading text-light"
                         target="_blank"
                         rel="noreferrer"
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: "bold",
+                          opacity: ".7",
+                        }}
                       >
-                        <Button
-                          variant="dark"
-                          className="w-100 download__buttons"
-                        >
-                          hello@paypenny.io
-                        </Button>
+                        hello@paypenny.io
                       </a>
                     </div>
                   </Row>

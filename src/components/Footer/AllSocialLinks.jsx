@@ -3,7 +3,7 @@ import React from "react";
 const AllSocialLinks = () => {
   return (
     <div className="d-flex w-100 justify-content-between align-items-center socials__links">
-      <a target="_blank" href="https://www.facebook.com/www.paypenny.io/">
+      <a target="_blank" href="https://www.facebook.com/www.paypenny.org/">
         <i id="facebookIcon" className="ri-facebook-circle-line"></i>
       </a>
       <a target="_blank" href="https://in.pinterest.com/Paypennyca/">

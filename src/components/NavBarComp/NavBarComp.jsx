@@ -6,6 +6,10 @@ import logo from "../../assets/Logo-01.png";
 import interact from "../../assets/Interac_Brand.png";
 import earn from "../../assets/Earn-logo.gif";
 import { Link } from "react-router-dom";
+import { NavDropdown } from "react-bootstrap";
+import CompanyDropdown from "./CompanyDropdown";
+import BusinessDropdown from "./BusinessDropdown";
+import SupportDrop from "./SupportDrop";
 
 const NavBarComp = ({ position }) => {
   return (
@@ -13,6 +17,7 @@ const NavBarComp = ({ position }) => {
       {["md"].map((expand) => (
         <Navbar
           key={expand}
+          variant="dark"
           expand={expand}
           style={{
             background: "#0054FF",
@@ -38,6 +43,9 @@ const NavBarComp = ({ position }) => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end align-items-center flex-grow-1 pe-3">
+                  <CompanyDropdown />
+                  <BusinessDropdown />
+                  <SupportDrop />
                   <Nav.Link
                     target="_blank"
                     href="https://www.interac.ca/en/content/life/three-reasons-to-set-up-interac-e-transfer-autodeposit-today/"

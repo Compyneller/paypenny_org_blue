@@ -11,7 +11,7 @@ const AboutUs = () => {
           className="d-flex flex-column justify-content-center"
         >
           <h1 className="section__heading">ABOUT US</h1>
-          <p>
+          <p style={{ fontSize: "20px" }}>
             Paypenny is established by a group of young & dynamic business
             entrepreneurs. It is a digital money remittance service provider
             where you can easily transfer INR(D) to your family members &

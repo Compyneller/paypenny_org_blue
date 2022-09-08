@@ -14,7 +14,7 @@ const Mission = () => {
           className="d-flex flex-column justify-content-center"
         >
           <h1 className="section__heading">MISSION</h1>
-          <p>
+          <p style={{ fontSize: "20px" }}>
             The mission behind starting this business is to bring the innovative
             idea out of the imagination and establish a platform that provides
             exceptional services, unlike traditional banks. We have a vision to

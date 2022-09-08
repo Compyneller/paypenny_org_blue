@@ -21,7 +21,7 @@ const Home = () => {
           value="Hundreds of thousands of NRIs trust Paypenny"
         />
       </Helmet>
-      <NavBarComp position="absolute" />
+      <NavBarComp />
       <Hero />
       <Section1 />
       <Section2 />

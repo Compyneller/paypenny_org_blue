@@ -131,7 +131,7 @@ const FooterBottom = () => {
               onClick={() => window.scroll(0, 0)}
               className="text-light my-2 "
               style={{ textDecoration: "none" }}
-              to="/about"
+              to="/rate-fees"
             >
               Rate & Fees
             </Link>
@@ -155,7 +155,7 @@ const FooterBottom = () => {
               onClick={() => window.scroll(0, 0)}
               className="text-light my-2 "
               style={{ textDecoration: "none" }}
-              to="/career"
+              to="/refer"
             >
               Refer Friend
             </Link>
@@ -167,7 +167,7 @@ const FooterBottom = () => {
               onClick={() => window.scroll(0, 0)}
               className="text-light my-2 "
               style={{ textDecoration: "none" }}
-              to="/about"
+              to="/help"
             >
               Help
             </Link>
@@ -186,7 +186,7 @@ const FooterBottom = () => {
               <Col xs={2} sm={3} md={3} lg={3}>
                 <a
                   target="_blank"
-                  href="https://www.facebook.com/www.paypenny.io/"
+                  href="https://www.facebook.com/www.paypenny.org/"
                 >
                   <img src={facebook} alt="" className="w-100" />
                 </a>

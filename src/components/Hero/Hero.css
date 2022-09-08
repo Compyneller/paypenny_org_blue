@@ -4,146 +4,58 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color);
     overflow-x: hidden !important;
+    width: 100%;
+    flex-direction: column;
 }
-.custom-shape-divider-bottom-1662033800 {
+.hero__bg{
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1662033800 svg {
-    position: relative;
-    display: block;
-    width: calc(105% + 1.3px);
-    height: 192px;
-}
-
-.custom-shape-divider-bottom-1662033800 .shape-fill {
-    fill: #FFFFFF;
+    height: 100%;
+    background-image: url("../../assets/PayPenny_Web banner 02_08 sep'22.jpg");
+    background-size: 100% 100%;
+    filter: brightness(.5);
 }
 
 
-.first-text-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    
-}
-.first-text-container h1{
-    font-size: 8vw;
-    color: #ffff;
-    opacity: .5 !important;
+.hero__heading{
+    font-size: 6vw;
+    color: #FFFFFF;
     font-weight: bold;
-}
-.second-text-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.second-text-container h5{
-    font-size: 3.5vw;
-    color: #ffff;
-}
-.third-text-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.third-text-container h1{
-   font-size: 8vw;
-   opacity: .5  !important;
-   font-weight: bold;
-   color: #FFFFFF;
-}
-.fourth-text-container {
-   display: flex;
-   align-items: center;
-   justify-content: end;
-   color: #ffff;
+    text-align: center;
 }
 
 
 @media screen and (max-width : 950px) {
-    .hero__text__container{
-        flex-direction: column;
-    }
-    .hero__send{
-        font-size: 15vw;
+    .hero__container{
+        min-height: 50vh !important;
         position: relative;
-        font-weight: 900;
-        opacity: .4;
-        bottom: 0;
-        left: 0;
-    
-        
-    }
-    .hero__money{
-        position: relative;
-      
-        margin:  auto;
-        text-align: center;
-        font-size: 10vw;
-        font-weight: 600;
-    
-    }
-    .hero__india{
-        position: relative;
-        right: 0;
-        top: 0;
-        font-size: 15vw;
-        font-weight: 900;
-        opacity: .5;
-        
-    }
-    .first-text-container{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        
-    }
-    .first-text-container h1{
-        font-size: 18vw;
-        color: #ffff;
-        opacity: .5 !important;
-        font-weight: bold;
-    }
-    .second-text-container{
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        overflow-x: hidden !important;
+        width: 100%;
+        flex-direction: column;
     }
-    .second-text-container h5{
-        font-size: 8vw;
-        color: #ffff;
+    .hero__bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../assets/PayPenny_Web banner 02_08 sep'22.jpg");
+        background-size: 100% 100%;
+        filter: brightness(.5);
     }
-    .third-text-container {
-        display: flex;
-        align-items: center;
-        justify-content: end;
+    .hero__heading{
+        font-size: 10vw;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
     }
-    .third-text-container h1{
-       font-size: 18vw;
-       opacity: .5  !important;
-       font-weight: bold;
-       color: #FFFFFF;
-    }
-    .fourth-text-container {
-       display: flex;
-       align-items: center;
-       justify-content: end;
-       color: #ffff;
-    }
-    
+   
+   
+  
 }

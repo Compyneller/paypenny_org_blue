@@ -11,7 +11,7 @@ import seventh from "../../assets/Paypenny_Instagram reels(img 08)_29 Aug'22.jpg
 import "./HTU.css";
 const HTU = () => {
   return (
-    <>
+    <div className="htu__container">
       <NavBarComp />
       <Container
         className="d-flex align-items-center flex-column py-5"
@@ -99,7 +99,7 @@ const HTU = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
