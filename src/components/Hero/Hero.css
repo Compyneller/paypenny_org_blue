@@ -1,5 +1,5 @@
 .hero__container{
-    min-height: 100vh;
+    min-height: 90vh !important;   
     position: relative;
     display: flex;
     align-items: center;
