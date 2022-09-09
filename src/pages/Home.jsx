@@ -39,9 +39,7 @@ const Home = () => {
       <BottomCard />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
+
       {/* <Footer /> */}
     </>
   );

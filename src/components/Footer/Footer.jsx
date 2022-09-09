@@ -25,7 +25,7 @@ const Footer = () => {
         </svg>
       </div> */}
 
-      <div className="footer__content pb-5">
+      <div className="footer__content pb-4">
         <Container>
           <FooterBottom />
         </Container>

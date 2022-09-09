@@ -9,7 +9,7 @@
     /* overflow-x: hidden !important; */
 
 }
-.custom-shape-divider-top-1662111856 {
+/* .custom-shape-divider-top-1662111856 {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,11 +27,11 @@
 
 .custom-shape-divider-top-1662111856 .shape-fill {
     fill: #FFFFFF;
-}
+} */
 .footer__content{
     /* position: absolute;
     top: 500px; */
-    
+    margin-top: 3rem;
     background-color: var(--primary-color);
     width: 100%;
 }
