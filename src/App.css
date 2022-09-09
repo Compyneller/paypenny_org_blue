@@ -15,6 +15,16 @@ body{
 .container{
   width: 65% !important;
 }
+.dropdown{
+  font-size: 18px;
+  font-weight: bold;
+}
+.ratefee__card{
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+border: none !important;
+
+}
 .section__container{
   display: flex;
   align-items: center;
@@ -73,7 +83,10 @@ body{
   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
-
+.about__heading{
+  font-size: 3vw;
+  font-weight: 700;
+}
 
 @media screen and (max-width : 950px) {
   .container{

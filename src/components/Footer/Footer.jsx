@@ -86,7 +86,10 @@ const Footer = () => {
             Transactions and Reports Analysis Center of Canada.
           </h5>
 
-          <h1 className="section__heading text-center text-light">
+          <h1
+            className="section__heading text-center text-light"
+            style={{ fontSize: "45px" }}
+          >
             Trusted by over 10,000+ users
           </h1>
           <br />

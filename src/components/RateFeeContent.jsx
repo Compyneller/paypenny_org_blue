@@ -49,54 +49,58 @@ const RateFeeContent = () => {
       </Row>
       <br />
       <br />
-      <h1 className="section__heading">
-        BEST RATES TODAY, TOMORROW & EVERY DAY!
-      </h1>
-      <br />
-      <br />
-      <p>
-        Currently, we are serving hundreds of thousands of customers and if we
-        talk about our journey then it wouldn’t be possible without our
-        prominent customers. Join hands with us and become a part of the
-        Paypenny family!
-      </p>
-      <br />
-      <br />
-      <Row className="g-3 w-100">
-        <Col sm={6} lg={3}>
-          {" "}
-          <a
-            href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
-            className="footer__downloadButton"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button
-              variant="dark"
-              className="w-100 download__buttons"
-              data-aos="zoom-in"
-            >
-              Android
-            </Button>
-          </a>
-        </Col>
-        <Col sm={6} lg={3}>
-          <a
-            href="https://apps.apple.com/in/app/paypenny/id1545140323"
-            target="_blank"
-            rel="noreferrer"
-            className="footer__downloadButton"
-          >
-            <Button
-              variant="dark"
-              className="w-100 download__buttons"
-              data-aos="zoom-in"
-            >
-              iOS
-            </Button>
-          </a>
-        </Col>
-      </Row>
+      <Card className="shadow ratefee__card">
+        <Card.Body>
+          <h1 className="section__heading">
+            BEST RATES TODAY, TOMORROW & EVERY DAY!
+          </h1>
+          <br />
+          <br />
+          <h5 className="section__sub__heading my-2">
+            Currently, we are serving hundreds of thousands of customers and if
+            we talk about our journey then it wouldn’t be possible without our
+            prominent customers. Join hands with us and become a part of the
+            Paypenny family!
+          </h5>
+          <br />
+          <br />
+          <Row className="g-3 w-100">
+            <Col sm={6} lg={3}>
+              {" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
+                className="footer__downloadButton"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  Android
+                </Button>
+              </a>
+            </Col>
+            <Col sm={6} lg={3}>
+              <a
+                href="https://apps.apple.com/in/app/paypenny/id1545140323"
+                target="_blank"
+                rel="noreferrer"
+                className="footer__downloadButton"
+              >
+                <Button
+                  variant="dark"
+                  className="w-100 download__buttons"
+                  data-aos="zoom-in"
+                >
+                  iOS
+                </Button>
+              </a>
+            </Col>
+          </Row>
+        </Card.Body>
+      </Card>
     </Container>
   );
 };

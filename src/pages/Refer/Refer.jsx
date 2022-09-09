@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import NavBarComp from "../../components/NavBarComp/NavBarComp";
-
+import image from "../../assets/undraw_gifts_0ceh.svg";
 const Refer = () => {
   return (
     <>
@@ -77,11 +77,24 @@ const Refer = () => {
         <h1 className="section__heading">
           SHARE YOUR REFERRAL CODE AS MANY TIMES AS YOU WANT.
         </h1>
-        <h5 className="section__sub__heading my-4">
-          Refer Paypenny to your friends today and get rewards in your wallet.
-          The more your friends use your referral code, the more you can earn.
-          There is no limit to sharing your code, so SHARE YOUR CODE NOW!
-        </h5>
+        <Row className="g-3">
+          <Col sm={12} lg={6} className="d-flex align-items-center">
+            <h5
+              className="section__sub__heading my-4"
+              style={{ lineHeight: "30px" }}
+            >
+              Refer Paypenny to your friends today and get rewards in your
+              wallet. The more your friends use your referral code, the more you
+              can earn. There is no limit to sharing your code, so
+              <mark style={{ background: "#FFFF00" }}>
+                SHARE YOUR CODE NOW!
+              </mark>
+            </h5>
+          </Col>
+          <Col sm={12} lg={6}>
+            <img src={image} alt="" className="w-100" />
+          </Col>
+        </Row>
       </Container>
     </>
   );

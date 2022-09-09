@@ -17,7 +17,7 @@ const Section1 = () => {
             Get the highest exchange rates guaranteed. Download Paypenny now and
             experience the difference.
           </h5>
-          <Row className="g-3">
+          {/* <Row className="g-3">
             <Col sm={12} lg={6}>
               <a
                 href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
@@ -48,7 +48,7 @@ const Section1 = () => {
                 </Button>
               </a>
             </Col>
-          </Row>
+          </Row> */}
         </Col>
         <Col sm={12} lg={6}>
           <img

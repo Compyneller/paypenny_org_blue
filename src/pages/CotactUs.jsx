@@ -26,7 +26,7 @@ const ContactUs = () => {
       </div>
       <br />
       <div className="ContactUsContainer " style={{ borderRadius: "10px" }}>
-        <h3 className="text-center">Send Crypto Worldwide with Paypenny</h3>
+        <h3 className="text-center">Send Money to India with Paypenny</h3>
         <br />
         <div className="row">
           <div className="col-12 col-lg-6">

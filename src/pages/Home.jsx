@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
 import Blog from "../components/Blog/Blog";
 import Hero from "../components/Hero/Hero";
@@ -9,6 +10,7 @@ import Section3 from "../components/Section3";
 import Section4 from "../components/Section4/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
+import SendMoney from "../components/SendMoney/SendMoney";
 
 const Home = () => {
   return (
@@ -23,12 +25,13 @@ const Home = () => {
       </Helmet>
       <NavBarComp />
       <Hero />
+      <SendMoney />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
-      <Blog />
+      {/* <Blog /> */}
       <Section6 />
       {/* <Footer /> */}
     </>

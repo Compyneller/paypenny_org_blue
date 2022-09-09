@@ -20,82 +20,75 @@ const HTU = () => {
         <h1 className="section__heading mb-5">How To Use</h1>
 
         <Row className="g-3">
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 1</h1>
+          <Col
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
+          >
+            <img src={first} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 1</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={first} className="htu__images" alt="" />
+            <img src={second} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 2</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={second} className="htu__images" alt="" />
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 2</h1>
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 3</h1>
+            <img src={third} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 3</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={third} className="htu__images" alt="" />
+            <img src={fourth} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 4</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={fourth} className="htu__images" alt="" />
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 4</h1>
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 5</h1>
+            <img src={fifth} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 5</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={fifth} className="htu__images" alt="" />
+            <img src={sixth} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 6</h1>
           </Col>
           <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={6}
+            sm={6}
+            md={4}
+            lg={3}
+            className="d-flex align-items-center justify-content-center flex-column"
           >
-            <img src={sixth} className="htu__images" alt="" />
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 6</h1>
-          </Col>
-          <Col xs={4} sm={4} lg={6} className="step__image">
-            <h1 className="section__heading">Step 7</h1>
-          </Col>
-          <Col
-            xs={8}
-            sm={8}
-            lg={6}
-            className="d-flex justify-content-center align-items-center"
-          >
-            <img src={seventh} className="htu__images" alt="" />
+            <img src={seventh} alt="" className="w-100" />
+            <h1 className="section__heading mt-3">Step 7</h1>
           </Col>
         </Row>
       </Container>

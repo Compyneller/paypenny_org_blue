@@ -10,7 +10,8 @@ const AboutUs = () => {
           lg={5}
           className="d-flex flex-column justify-content-center"
         >
-          <h1 className="section__heading">ABOUT US</h1>
+          <h1 className="about__heading">ABOUT US</h1>
+          <br />
           <p style={{ fontSize: "20px" }}>
             Paypenny is established by a group of young & dynamic business
             entrepreneurs. It is a digital money remittance service provider

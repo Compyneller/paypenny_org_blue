@@ -159,23 +159,29 @@ const Help = () => {
         </Card>
         <br />
         <br />
-        <h1 className="section__heading">We are just a CALL AWAY</h1>
-        <br />
-        <h1 className="section__heading">
-          Paypenny Help Center | 24x7 Customer Care Support
-        </h1>
-        <br />
-        <h5 className="section__sub__heading my-3">
-          We’re happy to answer any questions you may have. Get in touch with
-          our Customer Care representative.
-        </h5>
-        <h5 className="section__sub__heading my-3">Call : +1(416)323–3112</h5>
-        <h5 className="section__sub__heading my-3">
-          Email: <a href="mailto:help@paypenny.io">help@paypenny.io</a>
-        </h5>
-        <h5 className="section__sub__heading my-3">
-          Whatsapp: +1(825)733–0200
-        </h5>
+        <Card className="ratefee__card shadow">
+          <Card.Body>
+            <h1 className="section__heading">We are just a CALL AWAY</h1>
+            <br />
+            <h1 className="section__heading">
+              Paypenny Help Center | 24x7 Customer Care Support
+            </h1>
+            <br />
+            <h5 className="section__sub__heading my-3">
+              We’re happy to answer any questions you may have. Get in touch
+              with our Customer Care representative.
+            </h5>
+            <h5 className="section__sub__heading my-3">
+              Call : +1(416)323–3112
+            </h5>
+            <h5 className="section__sub__heading my-3">
+              Email: <a href="mailto:help@paypenny.io">help@paypenny.io</a>
+            </h5>
+            <h5 className="section__sub__heading my-3">
+              Whatsapp: +1(825)733–0200
+            </h5>
+          </Card.Body>
+        </Card>
       </Container>
     </>
   );
