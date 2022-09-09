@@ -38,14 +38,7 @@ const FooterBottom = () => {
         >
           Contact Us
         </Link>
-        <Link
-          onClick={() => window.scroll(0, 0)}
-          className="text-light my-2 "
-          style={{ textDecoration: "none" }}
-          to="/blog"
-        >
-          Blog
-        </Link>
+
         <p className="text-light ">
           © paypenny all Rights Reserved. The Brand PayPenny belongs to Trackon
           Canada Private Limited registered in Alberta,Canada.
