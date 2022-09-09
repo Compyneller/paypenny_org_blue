@@ -11,7 +11,7 @@ import facebook from "../../assets/icons8-facebook-100.png";
 import twitter from "../../assets/icons8-twitter-50.png";
 const FooterBottom = () => {
   return (
-    <Row className="g-3">
+    <Row className="g-5">
       <Col sm={12} lg={4} className="d-flex flex-column">
         <img src={logo} className="w-50" alt="" />
         <Link
@@ -43,41 +43,6 @@ const FooterBottom = () => {
           © paypenny all Rights Reserved. The Brand PayPenny belongs to Trackon
           Canada Private Limited registered in Alberta,Canada.
         </p>
-        <Row className="g-3">
-          <Col xs={6} sm={6} lg={6}>
-            {" "}
-            <a
-              href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
-              className="footer__downloadButton"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in"
-              >
-                Android
-              </Button>
-            </a>
-          </Col>
-          <Col xs={6} sm={6} lg={6}>
-            <a
-              href="https://apps.apple.com/in/app/paypenny/id1545140323"
-              target="_blank"
-              rel="noreferrer"
-              className="footer__downloadButton"
-            >
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in"
-              >
-                iOS
-              </Button>
-            </a>
-          </Col>
-        </Row>
       </Col>
       <Col sm={12} lg={8}>
         <Row className="g-3">

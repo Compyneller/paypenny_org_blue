@@ -1,6 +1,10 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./SendMoney.css";
+import GetItOnPlayStore from "../GetItOnPlayStore";
+import GetItOnAppStore from "../GetItOnAppStore";
+import money from "../../assets/kisspng-emoji-flying-cash-money-bag-sticker-banknote-5ac6c21922df96.5501337315229752571429.png";
+import india from "../../assets/—Pngtree—republic day india flag vector_5720399.png";
 const SendMoney = () => {
   return (
     <div className="send__container">
@@ -10,37 +14,15 @@ const SendMoney = () => {
 
         <Row className="g-3 d-flex justify-content-center">
           <Col sm={12} lg={3}>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
-              className="w-100"
-              target="_blank"
-            >
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in"
-              >
-                Android
-              </Button>
-            </a>
+            <GetItOnPlayStore />
           </Col>
           <Col sm={12} lg={3}>
-            <a
-              href="https://apps.apple.com/in/app/paypenny/id1545140323"
-              target="_blank"
-              className="w-100"
-            >
-              <Button
-                variant="dark"
-                className="w-100 download__buttons"
-                data-aos="zoom-in"
-              >
-                iOS
-              </Button>
-            </a>
+            <GetItOnAppStore />
           </Col>
         </Row>
       </Container>
+      <img src={money} width={80} alt="" className="money" />
+      <img src={india} alt="" width={80} height={100} className="flag" />
     </div>
   );
 };

@@ -2,8 +2,10 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet-async";
 import Blog from "../components/Blog/Blog";
+import BottomCard from "../components/BottomCard";
 import Hero from "../components/Hero/Hero";
 import NavBarComp from "../components/NavBarComp/NavBarComp";
+import Qr from "../components/Qr/Qr";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2/Section2";
 import Section3 from "../components/Section3";
@@ -33,6 +35,13 @@ const Home = () => {
       <Section5 />
       {/* <Blog /> */}
       <Section6 />
+      <Qr />
+      <BottomCard />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       {/* <Footer /> */}
     </>
   );

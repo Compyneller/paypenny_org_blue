@@ -11,6 +11,7 @@ const CompanyDropdown = () => {
   };
   return (
     <NavDropdown
+      className="me-4"
       title="Company"
       id="collasible-nav-dropdown"
       show={show}

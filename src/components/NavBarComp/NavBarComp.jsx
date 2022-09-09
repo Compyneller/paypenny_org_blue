@@ -49,6 +49,7 @@ const NavBarComp = ({ position }) => {
                   <Nav.Link
                     target="_blank"
                     href="https://www.interac.ca/en/content/life/three-reasons-to-set-up-interac-e-transfer-autodeposit-today/"
+                    className="me-4"
                   >
                     <img
                       src={interact}

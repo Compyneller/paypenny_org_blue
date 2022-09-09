@@ -1,0 +1,12 @@
+.qr__container{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 5rem;
+}
+@media screen and (max-width : 950px) {
+    .qr__container{
+        padding: 1rem;
+    }
+    
+}

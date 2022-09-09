@@ -6,14 +6,14 @@ const Mission = () => {
     <Container className="py-5">
       <Row className="g-3">
         <Col sm={12} lg={7}>
-          <img src={image} alt="paypenny.org mission image" className="w-100" />
+          {/* <img src={image} alt="paypenny.org mission image" className="w-100" /> */}
         </Col>
         <Col
           sm={12}
           lg={5}
           className="d-flex flex-column justify-content-center"
         >
-          <h1 className="about__heading">MISSION</h1>
+          <h1 className="about__heading text-center">What we do?</h1>
           <br />
           <p style={{ fontSize: "20px" }}>
             The mission behind starting this business is to bring the innovative

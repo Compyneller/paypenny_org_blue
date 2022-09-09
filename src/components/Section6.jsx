@@ -22,7 +22,11 @@ const Section6 = () => {
           lg={6}
           className="d-flex flex-column align-items-center justify-content-start"
         >
-          <h1 className="section__heading" data-aos="fade-left">
+          <h1
+            className="section__heading"
+            data-aos="fade-left"
+            style={{ fontSize: `${window.innerWidth < 950 ? "35px" : "50px"}` }}
+          >
             Become Our Brand Ambassador
           </h1>
 

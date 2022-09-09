@@ -10,7 +10,7 @@ const AboutUs = () => {
           lg={5}
           className="d-flex flex-column justify-content-center"
         >
-          <h1 className="about__heading">ABOUT US</h1>
+          <h1 className="about__heading text-center">Who we are?</h1>
           <br />
           <p style={{ fontSize: "20px" }}>
             Paypenny is established by a group of young & dynamic business
@@ -25,7 +25,7 @@ const AboutUs = () => {
           </p>
         </Col>
         <Col sm={12} lg={7}>
-          <img src={image} alt="paypenny.org about us" className="w-100" />
+          {/* <img src={image} alt="paypenny.org about us" className="w-100" /> */}
         </Col>
       </Row>
     </Container>

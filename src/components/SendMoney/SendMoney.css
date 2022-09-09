@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
+    position: relative;
+    flex-direction: column;
 }
 .send__container h1{
     font-size: 3vw;
@@ -15,9 +17,29 @@
 
 
 }
+.money{
+    position: absolute;
+    left: 3rem;
+    bottom: -2.5rem;
+}
+.flag{
+    position: absolute;
+    right: 3rem;
+    bottom: -3rem;
+}
 @media screen and (max-width : 950px) {
     .send__container h1{
         font-size: 8vw;
+    }
+    .money{
+        position: absolute;
+        left: 1rem;
+        bottom: -2.5rem;
+    }
+    .flag{
+        position: absolute;
+        right: 1rem;
+        bottom: -3rem;
     }
     
 }

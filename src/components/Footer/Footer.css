@@ -1,5 +1,5 @@
 .footer__container{
-    min-height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,9 +29,9 @@
     fill: #FFFFFF;
 }
 .footer__content{
-    position: absolute;
-    top: 500px;
-    min-height: 100vh;
+    /* position: absolute;
+    top: 500px; */
+    
     background-color: var(--primary-color);
     width: 100%;
 }
