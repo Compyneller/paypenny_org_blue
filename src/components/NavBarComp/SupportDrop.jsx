@@ -20,6 +20,7 @@ const SupportDrop = () => {
     >
       <NavDropdown.Item href="/help">Help</NavDropdown.Item>
       <NavDropdown.Item href="/contact-us">Contact Us</NavDropdown.Item>
+      <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
     </NavDropdown>
   );
 };

@@ -137,6 +137,14 @@ const FooterBottom = () => {
             >
               Contact Us
             </Link>
+            <Link
+              onClick={() => window.scroll(0, 0)}
+              className="text-light my-2 "
+              style={{ textDecoration: "none" }}
+              to="/faq"
+            >
+              FAQ
+            </Link>
           </Col>
           <Col xs={12} sm={12} md={6} lg={3} className="d-flex flex-column">
             <h5 className="section__sub__heading text-light">CONNECT</h5>
