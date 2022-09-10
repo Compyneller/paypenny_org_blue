@@ -25,8 +25,17 @@
 .flag{
     position: absolute;
     right: 3rem;
-    bottom: -3rem;
+    bottom: -2.5rem;
 }
+.arrow{
+    position: absolute;
+    bottom: -9.4rem ;
+    height: 300px;
+    width: 60%;
+    
+
+}
+
 @media screen and (max-width : 950px) {
     .send__container h1{
         font-size: 8vw;

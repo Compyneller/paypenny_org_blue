@@ -22,7 +22,12 @@ const RateFeeContent = () => {
                 src="https://img.icons8.com/fluency/344/0-circle.png"
                 alt=""
               />
-              <h5 className="section__sub__heading my-3">ZERO TRANSFER FEE</h5>
+              <h5
+                className="section__sub__heading my-3"
+                style={{ fontWeight: "bold" }}
+              >
+                ZERO TRANSFER FEE
+              </h5>
               <p>
                 Make Payments home without paying any fees. No hidden fee or
                 additional fee.
@@ -38,7 +43,12 @@ const RateFeeContent = () => {
                 src="https://img.icons8.com/external-flatarticons-blue-flatarticons/344/external-secure-web-hosting-flatarticons-blue-flatarticons.png"
                 alt=""
               />
-              <h5 className="section__sub__heading my-3">SECURE DELIVERY </h5>
+              <h5
+                className="section__sub__heading my-3"
+                style={{ fontWeight: "bold" }}
+              >
+                SECURE DELIVERY{" "}
+              </h5>
               <p>
                 Click ‘Send Money’ and sit back, relax & chill. We take care of
                 your money to be credited on time.

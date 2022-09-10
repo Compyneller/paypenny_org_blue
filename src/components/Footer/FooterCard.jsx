@@ -4,6 +4,7 @@ import { Card, Col, Row } from "react-bootstrap";
 const FooterCard = () => {
   return (
     <>
+      <h1 className="section__heading my-3">Why Choose Us?</h1>
       <Row className="g-3">
         <Col sm={12} md={6} lg={3}>
           <Card className="shadow section2__card" data-aos="zoom-out">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import AboutQuote from "../../components/AboutQuote/AboutQuote";
 import AboutUs from "../../components/AboutUs";
 import Mission from "../../components/Mission";
@@ -9,7 +10,9 @@ const About = () => {
     <>
       <NavBarComp background="#0054FF" />
       <br />
-      <AboutQuote />
+      <Container>
+        <AboutQuote />
+      </Container>
       <br />
       <AboutUs />
       <Mission />

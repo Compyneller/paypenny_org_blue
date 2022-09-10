@@ -97,7 +97,7 @@ const FooterBottom = () => {
               onClick={() => window.scroll(0, 0)}
               className="text-light my-2 "
               style={{ textDecoration: "none" }}
-              to="/blog"
+              to="/security"
             >
               Security
             </Link>

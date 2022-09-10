@@ -7,7 +7,7 @@ const AboutUs = () => {
       <Row className="g-3">
         <Col
           sm={12}
-          lg={5}
+          lg={6}
           className="d-flex flex-column justify-content-center"
         >
           <h1 className="about__heading text-center">Who we are?</h1>
@@ -24,8 +24,12 @@ const AboutUs = () => {
             second of the clock!
           </p>
         </Col>
-        <Col sm={12} lg={7}>
-          {/* <img src={image} alt="paypenny.org about us" className="w-100" /> */}
+        <Col sm={12} lg={6}>
+          <img
+            src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="paypenny.org about us"
+            className="w-100"
+          />
         </Col>
       </Row>
     </Container>

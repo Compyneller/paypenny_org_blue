@@ -20,6 +20,8 @@ import RateFees from "./pages/RateFees/RateFees";
 import Refer from "./pages/Refer/Refer";
 import Security from "./pages/Security";
 import Help from "./pages/Help";
+import FAQ from "./pages/FAQ/FAQ";
+import Reviews from "./pages/Reviews/Reviews";
 
 function App() {
   useEffect(() => {
@@ -46,6 +48,8 @@ function App() {
           <Route path="/refer" element={<Refer />} />
           <Route path="/security" element={<Security />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/reviews" element={<Reviews />} />
           {/* <Route path="/rate-fees" element={<RateFees />} />
           <Route path="/security" element={<Security />} />
           <Route path="/reviews" element={<Reviews />} />
