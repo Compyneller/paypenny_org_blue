@@ -23,7 +23,7 @@ const Section4 = () => {
           <h1 className="section__heading">Why Choose Us?</h1>
           <br />
           <Row className="g-3">
-            <Col sm={12} lg={6}>
+            {/* <Col sm={12} lg={6}>
               {" "}
               <Card className=" shadow section2__card" data-aos="fade-left">
                 <Card.Body>
@@ -56,7 +56,7 @@ const Section4 = () => {
                   </p>
                 </Card.Body>
               </Card>
-            </Col>
+            </Col> */}
             <Col xs={12} sm={12} lg={12}>
               <AboutQuote />
             </Col>
