@@ -28,9 +28,7 @@ const Home = () => {
       <NavBarComp />
       <Hero />
       <SendMoney />
-      <br />
-      <br />
-      <br />
+
       <Section2 />
       <Section1 />
       <Section3 />

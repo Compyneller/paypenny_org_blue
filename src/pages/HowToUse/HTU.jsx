@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import NavBarComp from "../../components/NavBarComp/NavBarComp";
 import first from "../../assets/Paypenny_Instagram reels(img 01)_29 Aug'22.jpg";
 import second from "../../assets/Paypenny_Instagram reels(img 02)_29 Aug'22.jpg";
@@ -9,6 +9,8 @@ import fifth from "../../assets/Paypenny_Instagram reels(img 05)_29 Aug'22.jpg";
 import sixth from "../../assets/Paypenny_Instagram reels(img 06)_29 Aug'22.jpg";
 import seventh from "../../assets/Paypenny_Instagram reels(img 08)_29 Aug'22.jpg";
 import "./HTU.css";
+import GetItOnPlayStore from "../../components/GetItOnPlayStore";
+import GetItOnAppStore from "../../components/GetItOnAppStore";
 const HTU = () => {
   return (
     <div className="htu__container">
@@ -91,6 +93,25 @@ const HTU = () => {
             <h1 className="section__heading mt-3">Step 7</h1>
           </Col>
         </Row>
+        <br />
+        <br />
+        <br />
+        <br />
+        <Card className="shadow">
+          <Card.Body className="p-5">
+            <h1 className="section__heading">Download the Paypenny app now</h1>
+            <br />
+            <br />
+            <div
+              className=" d-flex align-items-center justify-content-center"
+              style={{ gap: "1rem" }}
+            >
+              <GetItOnPlayStore />
+
+              <GetItOnAppStore />
+            </div>
+          </Card.Body>
+        </Card>
       </Container>
     </div>
   );

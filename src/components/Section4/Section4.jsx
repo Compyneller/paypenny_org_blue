@@ -19,9 +19,6 @@ const Section4 = () => {
           lg={6}
           className="d-flex justify-content-center flex-column "
         >
-          <h1 className="section__heading">Why Choose Us?</h1>
-          <br />
-
           {/* <Col sm={12} lg={6}>
               {" "}
               <Card className=" shadow section2__card" data-aos="fade-left">
