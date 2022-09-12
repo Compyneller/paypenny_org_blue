@@ -2,10 +2,9 @@ import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./Section4.css";
 import image from "../../assets/PayPenny_Web IMG 02_08 sep'2022.jpg";
-import AboutQuote from "../AboutQuote/AboutQuote";
 const Section4 = () => {
   return (
-    <Container className="py-5" style={{ minHeight: "80vh" }}>
+    <Container className="py-5">
       <Row className="g-3" style={{ overflowX: "hidden" }}>
         <Col sm={12} lg={6} className="d-flex align-items-center">
           <img
@@ -22,8 +21,8 @@ const Section4 = () => {
         >
           <h1 className="section__heading">Why Choose Us?</h1>
           <br />
-          <Row className="g-3">
-            {/* <Col sm={12} lg={6}>
+
+          {/* <Col sm={12} lg={6}>
               {" "}
               <Card className=" shadow section2__card" data-aos="fade-left">
                 <Card.Body>
@@ -57,22 +56,25 @@ const Section4 = () => {
                 </Card.Body>
               </Card>
             </Col> */}
-            <Col xs={12} sm={12} lg={12}>
-              <AboutQuote />
-            </Col>
-            <Col xs={12} sm={12} lg={12}>
-              <Card className="section2__card shadow">
-                <Card.Body>
-                  <h5 className="section__sub__heading my-3">
-                    Make payments to your home without any hassle. Get the best
-                    rates with the best security of your money. We promise to
-                    deliver the transfer faster than your flight from Abroad to
-                    India.
-                  </h5>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+
+          <img
+            src="https://img.icons8.com/ios-filled/344/quote-left.png"
+            height={80}
+            width={80}
+            alt=""
+          />
+          <h5
+            className=" text-dark my-3"
+            style={{ fontSize: "35px", fontWeight: "bold" }}
+          >
+            There is a lot of things to weigh up when a transfer happens, and
+            money is a big factor.
+          </h5>
+          <h5 className="section__sub__heading my-3">
+            Make payments to your home without any hassle. Get the best rates
+            with the best security of your money. We promise to deliver the
+            transfer faster than your flight from Abroad to India.
+          </h5>
 
           <br />
           <br />

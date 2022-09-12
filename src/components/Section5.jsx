@@ -32,14 +32,14 @@ const Section5 = () => {
             </h1>
             <br />
             <br />
-            <Row className="g-3 w-100">
-              <Col sm={12} lg={6}>
-                <GetItOnPlayStore />
-              </Col>
-              <Col sm={12} lg={6}>
-                <GetItOnAppStore />
-              </Col>
-            </Row>
+            <div
+              className=" d-flex align-items-center justify-content-center"
+              style={{ gap: "1rem" }}
+            >
+              <GetItOnPlayStore />
+
+              <GetItOnAppStore />
+            </div>
           </Col>
           <Col
             sm={12}

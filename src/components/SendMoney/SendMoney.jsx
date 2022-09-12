@@ -11,20 +11,20 @@ const SendMoney = () => {
     <div className="send__container">
       <Container>
         <Row className="g-3">
-          <Col sm={12} lg={9}>
+          <Col xs={12} sm={12} lg={12}>
             <h1> Send Money to India at Zero Charges.</h1>
             <br />
 
-            <Row className="g-3 d-flex justify-content-center">
-              <Col sm={12} lg={3}>
-                <GetItOnPlayStore />
-              </Col>
-              <Col sm={12} lg={3}>
-                <GetItOnAppStore />
-              </Col>
-            </Row>
+            <div
+              className=" d-flex align-items-center justify-content-center"
+              style={{ gap: "1rem" }}
+            >
+              <GetItOnPlayStore />
+
+              <GetItOnAppStore />
+            </div>
           </Col>
-          <Col sm={12} lg={3} className="d-flex align-items-center">
+          {/* <Col sm={12} lg={3} className="d-flex align-items-center">
             <Row>
               <Col xs={4} sm={4} lg={4}>
                 <img src={money} alt="" className="w-100" />
@@ -42,7 +42,7 @@ const SendMoney = () => {
                 <img src={india} alt="" className="w-100" />
               </Col>
             </Row>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

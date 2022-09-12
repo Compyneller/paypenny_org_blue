@@ -6,7 +6,7 @@ const GetItOnPlayStore = () => {
       href="https://play.google.com/store/apps/details?id=com.bhanguz.Paypenny&hl=en_IN&gl=US"
       target="_blank"
     >
-      <img src={image} className="w-100" height={80} alt="" />
+      <img src={image} height={50} width={150} alt="" />
     </a>
   );
 };

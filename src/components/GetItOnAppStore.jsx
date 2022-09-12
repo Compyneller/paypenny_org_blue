@@ -6,7 +6,7 @@ const GetItOnAppStore = () => {
       href="https://apps.apple.com/in/app/paypenny/id1545140323"
       target="_blank"
     >
-      <img src={image} className="w-100" height={80} alt="" />
+      <img src={image} height={50} width={150} alt="" />
     </a>
   );
 };
