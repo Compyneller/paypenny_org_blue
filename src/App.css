@@ -18,6 +18,10 @@ body{
 .dropdown{
   font-size: 18px;
   font-weight: bold;
+  
+}
+.dropdown-toggle{
+  color: #ffff !important;
 }
 .ratefee__card{
   background-color: #FFDEE9;

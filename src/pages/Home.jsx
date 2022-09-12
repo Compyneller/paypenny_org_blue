@@ -21,8 +21,8 @@ const Home = () => {
         <title>PayPenny Home</title>
         <link rel="canonical" href="https://www.paypenny.org/" />
         <meta
-          name="description"
-          value="Hundreds of thousands of NRIs trust Paypenny"
+          name="Send Money to India for free - Paypenny"
+          content="Get the highest exchange rates with the coverage of 100+ private & national banks like icici, sbi, pnb and more. Send money to India 24/7 at zero charges."
         />
       </Helmet>
       <NavBarComp />

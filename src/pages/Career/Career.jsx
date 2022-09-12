@@ -3,9 +3,18 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import NavBarComp from "../../components/NavBarComp/NavBarComp";
 import "./Career.css";
 import image from "../../assets/Clip_applying_to_university_online_by_Icons8.gif";
+import { Helmet } from "react-helmet-async";
 const Career = () => {
   return (
     <>
+      <Helmet>
+        <title>PayPenny Career</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="Send Money to India for free - Paypenny"
+          content="Get the highest exchange rates with the coverage of 100+ private & national banks like icici, sbi, pnb and more. Send money to India 24/7 at zero charges."
+        />
+      </Helmet>
       <NavBarComp />
       <Container
         className="d-flex py-5 flex-column align-items-center justify-content-center"

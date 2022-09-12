@@ -2,9 +2,18 @@ import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import NavBarComp from "../../components/NavBarComp/NavBarComp";
 import image from "../../assets/PayPenny_Web IMG 03_08 sep'22.jpg";
+import { Helmet } from "react-helmet-async";
 const Refer = () => {
   return (
     <>
+      <Helmet>
+        <title>PayPenny Refer</title>
+        <link rel="canonical" href="https://www.paypenny.org/" />
+        <meta
+          name="Send Money to India for free - Paypenny"
+          content="Get the highest exchange rates with the coverage of 100+ private & national banks like icici, sbi, pnb and more. Send money to India 24/7 at zero charges."
+        />
+      </Helmet>
       <NavBarComp />
       <Container
         className="d-flex align-items-center justify-content-center flex-column py-5"
